@@ -1,0 +1,12 @@
+num = 371
+#checking if this number is an armstrong number
+sum = 0
+temp = num
+while temp > 0:
+int = temp % 10 #returns the the normal remainder modulus
+sum += int ** 3 #cube the number
+temp //= 10
+if num == sum:
+print ("Yes")
+else:
+print ("No")
